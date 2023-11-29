@@ -12,7 +12,7 @@ protocol ViewToPresenterTableViewProtocol: AnyObject {
     var view: PresenterToViewTableViewProtocol? { get set }
     var interactor: PresenterToInteractorTableViewProtocol { get set }
     var router: PresenterToRouterTableViewProtocol { get set }
-    func viewDidLoad()
+    func viewDidLoad(with text: String)
     
     func numberOfRowsInSection() -> Int
     func setCell(tableView: UITableView, forRowAt indexPath: IndexPath) -> UITableViewCell
@@ -29,7 +29,7 @@ protocol PresenterToViewTableViewProtocol: AnyObject {
 protocol PresenterToInteractorTableViewProtocol: AnyObject {
     var presenter: InteractorToPresenterTableViewProtocol? { get set }
     var images: [Hit]? { get set}
-    func fetchImageList()
+    func fetchImageList(with text: String)
     func getImageDetailAt(index: Int)
 }
 

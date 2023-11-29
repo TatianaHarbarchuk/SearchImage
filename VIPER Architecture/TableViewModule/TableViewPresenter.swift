@@ -21,8 +21,8 @@ class TableViewPresenter: ViewToPresenterTableViewProtocol {
     }
     
     //MARK: - Func viewDidLoad
-    func viewDidLoad() {
-        interactor.fetchImageList()
+    func viewDidLoad(with text: String) {
+        interactor.fetchImageList(with: text)
     }
     
     //MARK: - Func numberOfRowsInSection

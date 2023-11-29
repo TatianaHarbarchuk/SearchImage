@@ -15,8 +15,8 @@ class TableViewInteractor: PresenterToInteractorTableViewProtocol {
     var images: [Hit]?
     
     //MARK: - Func fetchImageList
-    func fetchImageList() {
-        imageService.fetchingAPIImages(matching: "Girl") { [weak self] image, _ in
+    func fetchImageList(with text: String) {
+        imageService.fetchingAPIImages(matching: text) { [weak self] image, _ in
             guard let self else { return }
             self.images = image
             if let imageList = self.images {

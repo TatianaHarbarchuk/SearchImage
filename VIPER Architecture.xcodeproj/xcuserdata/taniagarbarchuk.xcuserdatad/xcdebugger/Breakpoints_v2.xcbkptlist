@@ -230,8 +230,8 @@
             filePath = "VIPER Architecture/TableViewModule/TableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "setUpUI()"
             landmarkType = "7">
             <Locations>
@@ -512,8 +512,8 @@
             filePath = "VIPER Architecture/TableViewModule/TableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -528,8 +528,8 @@
             filePath = "VIPER Architecture/TableViewModule/TableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
             <Locations>
