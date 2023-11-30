@@ -10,13 +10,13 @@ import Foundation
 class TableViewInteractor: PresenterToInteractorTableViewProtocol {
     
     //MARK: - Properties
-    private var imageService = ImageService()
+    private var imageManager = ImageManager()
     var presenter: InteractorToPresenterTableViewProtocol?
     var images: [Hit]?
     
     //MARK: - Func fetchImageList
     func fetchImageList(with text: String) {
-        imageService.fetchingAPIImages(matching: text) { [weak self] image, _ in
+        imageManager.getImage(matching: text) { [weak self] image, _  in
             guard let self else { return }
             self.images = image
             if let imageList = self.images {

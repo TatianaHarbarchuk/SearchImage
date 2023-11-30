@@ -7,222 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "30E95B4C-B737-4864-ADDD-612C9392B456"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VIPER Architecture/TableViewModule/TableViewInteractor.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "fetchImageList()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "30E95B4C-B737-4864-ADDD-612C9392B456 - b129e591f7ffd84f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "44">
-               </Location>
-               <Location
-                  uuid = "30E95B4C-B737-4864-ADDD-612C9392B456 - 30168fda63b54ef6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;VIPER_Architecture.Hit&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  uuid = "30E95B4C-B737-4864-ADDD-612C9392B456 - 30168fda63b54eb4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;VIPER_Architecture.Hit&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "44">
-               </Location>
-               <Location
-                  uuid = "30E95B4C-B737-4864-ADDD-612C9392B456 - 30168fda63b54eb4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;VIPER_Architecture.Hit&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  uuid = "30E95B4C-B737-4864-ADDD-612C9392B456 - b129e591f7ffd84f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "30E95B4C-B737-4864-ADDD-612C9392B456 - 30168fda63b54eb4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;VIPER_Architecture.Hit&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "84">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D6D55084-A443-4E7A-90D1-77E73572C0ED"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VIPER Architecture/TableViewModule/TableViewInteractor.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "fetchImageList()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D6D55084-A443-4E7A-90D1-77E73572C0ED - 30168fda63b54ef6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;VIPER_Architecture.Hit&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  uuid = "D6D55084-A443-4E7A-90D1-77E73572C0ED - 30168fda63b54ed1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;VIPER_Architecture.Hit&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "164">
-               </Location>
-               <Location
-                  uuid = "D6D55084-A443-4E7A-90D1-77E73572C0ED - 30168fda63b54ed1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;VIPER_Architecture.Hit&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "168">
-               </Location>
-               <Location
-                  uuid = "D6D55084-A443-4E7A-90D1-77E73572C0ED - 30168fda63b54e30"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;VIPER_Architecture.Hit&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "564">
-               </Location>
-               <Location
-                  uuid = "D6D55084-A443-4E7A-90D1-77E73572C0ED - 30168fda63b54ef6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;VIPER_Architecture.Hit&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "168">
-               </Location>
-               <Location
-                  uuid = "D6D55084-A443-4E7A-90D1-77E73572C0ED - 30168fda63b54ed1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;VIPER_Architecture.Hit&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "160">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "D02EB85B-2180-4C35-8520-7947C97E20C9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -325,6 +109,36 @@
                   endingLineNumber = "31"
                   offsetFromSymbolStart = "1120">
                </Location>
+               <Location
+                  uuid = "D02EB85B-2180-4C35-8520-7947C97E20C9 - 9e13d14603deba07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIPER_Architecture.TableViewController.setUpUI() -&gt; ()"
+                  moduleName = "VIPER Architecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/SearchImage/VIPER%20Architecture/TableViewModule/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1328">
+               </Location>
+               <Location
+                  uuid = "D02EB85B-2180-4C35-8520-7947C97E20C9 - 9e13d14603deba07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIPER_Architecture.TableViewController.setUpUI() -&gt; ()"
+                  moduleName = "VIPER Architecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/SearchImage/VIPER%20Architecture/TableViewModule/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1380">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -388,53 +202,20 @@
                   endingLineNumber = "34"
                   offsetFromSymbolStart = "20">
                </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0C57AA13-D00B-4683-8130-5959017D5198"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VIPER Architecture/TableViewModule/TableViewInteractor.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "fetchImageList()"
-            landmarkType = "7">
-            <Locations>
                <Location
-                  uuid = "0C57AA13-D00B-4683-8130-5959017D5198 - 30168fda63b54e97"
+                  uuid = "59D9989F-60D8-482E-AEB7-C3377B250ACD - 9f5195e9f4e7bef5"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;VIPER_Architecture.Hit&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
+                  symbolName = "VIPER_Architecture.TableViewPresenter.numberOfRowsInSection() -&gt; Swift.Int"
                   moduleName = "VIPER Architecture"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
+                  urlString = "file:///Applications/SearchImage/VIPER%20Architecture/TableViewModule/TableViewPresenter.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "0C57AA13-D00B-4683-8130-5959017D5198 - 30168fda63b54e97"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;VIPER_Architecture.Hit&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VIPER_Architecture.TableViewInteractor.fetchImageList() -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "80">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "24">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -498,6 +279,21 @@
                   startingLineNumber = "36"
                   endingLineNumber = "36"
                   offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "05F7770F-EFCB-448F-B14C-1174749EDD60 - e5a2f40fbb0ce464"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIPER_Architecture.TableViewPresenter.setCell(tableView: __C.UITableView, forRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "VIPER Architecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/SearchImage/VIPER%20Architecture/TableViewModule/TableViewPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "148">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -578,6 +374,21 @@
                   endingLineNumber = "59"
                   offsetFromSymbolStart = "116">
                </Location>
+               <Location
+                  uuid = "7A78AD21-2367-47BB-BDBA-FD6454C44A79 - fa9eedb8b760ab03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIPER_Architecture.TableViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "VIPER Architecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/SearchImage/VIPER%20Architecture/TableViewModule/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "116">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -625,6 +436,21 @@
                   startingLineNumber = "36"
                   endingLineNumber = "36"
                   offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "0C77B84E-77AB-4D17-AB9C-76060027AE78 - e5a2f40fbb0ce464"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIPER_Architecture.TableViewPresenter.setCell(tableView: __C.UITableView, forRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "VIPER Architecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/SearchImage/VIPER%20Architecture/TableViewModule/TableViewPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "148">
                </Location>
             </Locations>
          </BreakpointContent>
