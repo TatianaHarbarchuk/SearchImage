@@ -21,7 +21,6 @@
 		396A8C262B14C16000741C3A /* TableViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A8C252B14C16000741C3A /* TableViewInteractor.swift */; };
 		396A8C282B14C17B00741C3A /* TableViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A8C272B14C17B00741C3A /* TableViewPresenter.swift */; };
 		396A8C2A2B14C19700741C3A /* TableViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A8C292B14C19700741C3A /* TableViewRouter.swift */; };
-		396A8C2C2B14C6DF00741C3A /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A8C2B2B14C6DF00741C3A /* ImageService.swift */; };
 		396A8C2E2B14C94200741C3A /* TableViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A8C2D2B14C94200741C3A /* TableViewProtocols.swift */; };
 		396A8C302B14CC8300741C3A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A8C2F2B14CC8300741C3A /* Model.swift */; };
 		396A8C332B14D23800741C3A /* TableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A8C322B14D23700741C3A /* TableView+Extensions.swift */; };
@@ -30,6 +29,8 @@
 		396A8C3A2B14D93D00741C3A /* ImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A8C392B14D93D00741C3A /* ImageView+Extensions.swift */; };
 		396A8C3C2B14D96B00741C3A /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A8C3B2B14D96B00741C3A /* CacheService.swift */; };
 		396A8C3E2B15FDD200741C3A /* TableViewModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A8C3D2B15FDD200741C3A /* TableViewModuleBuilder.swift */; };
+		397367832B1892300053648F /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397367822B1892300053648F /* ImageManager.swift */; };
+		BF1861697EBDF17D8F4EFEAA /* Pods_VIPER_Architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C677EBD0117DA719489C0D9 /* Pods_VIPER_Architecture.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +50,6 @@
 		396A8C252B14C16000741C3A /* TableViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewInteractor.swift; sourceTree = "<group>"; };
 		396A8C272B14C17B00741C3A /* TableViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPresenter.swift; sourceTree = "<group>"; };
 		396A8C292B14C19700741C3A /* TableViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewRouter.swift; sourceTree = "<group>"; };
-		396A8C2B2B14C6DF00741C3A /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		396A8C2D2B14C94200741C3A /* TableViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewProtocols.swift; sourceTree = "<group>"; };
 		396A8C2F2B14CC8300741C3A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		396A8C322B14D23700741C3A /* TableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Extensions.swift"; sourceTree = "<group>"; };
@@ -58,6 +58,10 @@
 		396A8C392B14D93D00741C3A /* ImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+Extensions.swift"; sourceTree = "<group>"; };
 		396A8C3B2B14D96B00741C3A /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
 		396A8C3D2B15FDD200741C3A /* TableViewModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModuleBuilder.swift; sourceTree = "<group>"; };
+		397367822B1892300053648F /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		6C677EBD0117DA719489C0D9 /* Pods_VIPER_Architecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPER_Architecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA16B7B9BCB6FE1B930B7B2 /* Pods-VIPER Architecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER Architecture.debug.xcconfig"; path = "Target Support Files/Pods-VIPER Architecture/Pods-VIPER Architecture.debug.xcconfig"; sourceTree = "<group>"; };
+		F7B3E79BE6295449036E4E49 /* Pods-VIPER Architecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER Architecture.release.xcconfig"; path = "Target Support Files/Pods-VIPER Architecture/Pods-VIPER Architecture.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1861697EBDF17D8F4EFEAA /* Pods_VIPER_Architecture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				396A8C3B2B14D96B00741C3A /* CacheService.swift */,
-				396A8C2B2B14C6DF00741C3A /* ImageService.swift */,
+				397367822B1892300053648F /* ImageManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -106,6 +111,8 @@
 			children = (
 				396A8C0D2B14BF8C00741C3A /* VIPER Architecture */,
 				396A8C0C2B14BF8C00741C3A /* Products */,
+				BF514E5DF74A58E779105BF7 /* Pods */,
+				68A4E4002B982707F749A02F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +173,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		68A4E4002B982707F749A02F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C677EBD0117DA719489C0D9 /* Pods_VIPER_Architecture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF514E5DF74A58E779105BF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFA16B7B9BCB6FE1B930B7B2 /* Pods-VIPER Architecture.debug.xcconfig */,
+				F7B3E79BE6295449036E4E49 /* Pods-VIPER Architecture.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 396A8C1F2B14BF8E00741C3A /* Build configuration list for PBXNativeTarget "VIPER Architecture" */;
 			buildPhases = (
+				EFE2A555B48EC128D177F646 /* [CP] Check Pods Manifest.lock */,
 				396A8C072B14BF8C00741C3A /* Sources */,
 				396A8C082B14BF8C00741C3A /* Frameworks */,
 				396A8C092B14BF8C00741C3A /* Resources */,
+				5FF3D7B025A102E05D1CA510 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +258,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FF3D7B025A102E05D1CA510 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIPER Architecture/Pods-VIPER Architecture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIPER Architecture/Pods-VIPER Architecture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VIPER Architecture/Pods-VIPER Architecture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE2A555B48EC128D177F646 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIPER Architecture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		396A8C072B14BF8C00741C3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -241,11 +309,11 @@
 				396A8C3E2B15FDD200741C3A /* TableViewModuleBuilder.swift in Sources */,
 				396A8C0F2B14BF8C00741C3A /* AppDelegate.swift in Sources */,
 				396A8C112B14BF8C00741C3A /* SceneDelegate.swift in Sources */,
-				396A8C2C2B14C6DF00741C3A /* ImageService.swift in Sources */,
 				396A8C302B14CC8300741C3A /* Model.swift in Sources */,
 				396A8C262B14C16000741C3A /* TableViewInteractor.swift in Sources */,
 				396A8C372B14D2BE00741C3A /* TableViewCell.swift in Sources */,
 				390120782B17506D00D2C875 /* DetailImageModuleBuilder.swift in Sources */,
+				397367832B1892300053648F /* ImageManager.swift in Sources */,
 				396A8C2E2B14C94200741C3A /* TableViewProtocols.swift in Sources */,
 				390120742B17503E00D2C875 /* DetailImageInteractor.swift in Sources */,
 				396A8C332B14D23800741C3A /* TableView+Extensions.swift in Sources */,
@@ -390,6 +458,7 @@
 		};
 		396A8C202B14BF8E00741C3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA16B7B9BCB6FE1B930B7B2 /* Pods-VIPER Architecture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -416,6 +485,7 @@
 		};
 		396A8C212B14BF8E00741C3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B3E79BE6295449036E4E49 /* Pods-VIPER Architecture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

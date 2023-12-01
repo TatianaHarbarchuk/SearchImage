@@ -7,10 +7,12 @@
 
 import UIKit
 
-class TableViewController: UIViewController {
+class TableViewController: UIViewController, UITextFieldDelegate, UISearchBarDelegate  {
     
     //MARK: - Properties
     var tableView: UITableView?
+    var searchTextField = UITextField()
+    var searchController = UISearchController(searchResultsController: nil)
     var presenter: (ViewToPresenterTableViewProtocol & InteractorToPresenterTableViewProtocol)?
     
     //MARK: - Lifecycle
@@ -18,7 +20,7 @@ class TableViewController: UIViewController {
         super.viewDidLoad()
         
         setUpUI()
-        presenter?.viewDidLoad()
+        setupSearchController()
     }
     
     //MARK: - Func setUpUI
@@ -33,6 +35,34 @@ class TableViewController: UIViewController {
         if let tableView = tableView {
             view.addSubview(tableView)
         }
+    }
+    
+    //MARK: - Func setupSearchController
+    private func setupSearchController() {
+        searchController.searchBar.delegate = self
+        searchController.searchBar.returnKeyType = .search
+        searchController.searchBar.searchTextField.delegate = self
+        searchController.obscuresBackgroundDuringPresentation = false
+        navigationItem.searchController = searchController
+        definesPresentationContext = true
+    }
+    
+    //MARK: - Func searchBarSearchButtonClicked
+    public func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        guard let searchBarText = searchController.searchBar.text else { return }
+        presenter?.viewDidLoad(with: searchBarText)
+        searchBar.resignFirstResponder()
+    }
+    
+    //MARK: - Func searchBarCancelButtonClicked
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+    }
+    
+    //MARK: - Func textFieldShouldClear
+    func textFieldShouldClear(_ textField: UITextField) -> Bool {
+        searchController.searchBar.searchTextField.clearButtonMode = .whileEditing
+        return true
     }
 }
 
@@ -58,6 +88,7 @@ extension TableViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        presenter?.didSelectRowAt(index: indexPath.row)
+        tableView.deselectRow(at: indexPath, animated: true)
+        presenter?.showImageDetail(at: indexPath.row)
     }
 }

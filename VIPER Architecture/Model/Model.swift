@@ -10,6 +10,10 @@ import Foundation
 //MARK: - Image
 struct Image: Codable {
     let hits: [Hit]
+    
+    init(hits: [Hit]) {
+        self.hits = hits
+    }
 }
 
 // MARK: - Hit
