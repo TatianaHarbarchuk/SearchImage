@@ -13,7 +13,6 @@ class TableViewPresenter: ViewToPresenterTableViewProtocol {
     weak var view: PresenterToViewTableViewProtocol?
     var interactor: PresenterToInteractorTableViewProtocol
     var router: PresenterToRouterTableViewProtocol
-    private var images = [Hit]()
     
     init(interactor: PresenterToInteractorTableViewProtocol, router: PresenterToRouterTableViewProtocol) {
         self.interactor = interactor
@@ -27,22 +26,30 @@ class TableViewPresenter: ViewToPresenterTableViewProtocol {
     
     //MARK: - Func numberOfRowsInSection
     func numberOfRowsInSection() -> Int {
-        images.count
+        return interactor.imagesCount()
+    }
+    
+    //MARK: - Func getImage
+    func getImage(at index: Int) -> Hit? {
+        return interactor.getImage(at: index)
+    }
+    
+    //MARK: - Func showImageDetail
+    func showImageDetail(at index: Int) {
+        if let image = interactor.getImage(at: index) {
+            router.pushToDetail(with: image)
+        }
     }
     
     //MARK: - Func setCell
     func setCell(tableView: UITableView, forRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: TableViewCell.self), for: indexPath) as? TableViewCell {
-            let images = images[indexPath.row]
-            cell.setData(model: images)
+            if let image = interactor.getImage(at: indexPath.row) {
+                cell.setData(model: image)
+            }
             return cell
         }
         return UITableViewCell()
-    }
-    
-    //MARK: - Func didSelectRowAt
-    func didSelectRowAt(index: Int) {
-        interactor.getImageDetailAt(index: index)
     }
     
     //MARK: - Func tableViewCellHeight
@@ -52,16 +59,9 @@ class TableViewPresenter: ViewToPresenterTableViewProtocol {
 }
 
 extension TableViewPresenter: InteractorToPresenterTableViewProtocol {
+    
     //MARK: - Func fetchImageListSuccess
     func fetchImageListSuccess(images: [Hit]) {
-        self.images = images
         self.view?.reloadData()
-    }
-    
-    //MARK: - Func getImageDetailSuccess
-    func getImageDetailSuccess() {
-        let images = interactor.images
-        guard let firstImage = images?.first else { return }
-        router.pushToDetail(with: firstImage)
     }
 }

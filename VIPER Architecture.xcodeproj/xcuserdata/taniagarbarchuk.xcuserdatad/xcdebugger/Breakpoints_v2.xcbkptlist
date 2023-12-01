@@ -14,8 +14,8 @@
             filePath = "VIPER Architecture/TableViewModule/TableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "setUpUI()"
             landmarkType = "7">
             <Locations>
@@ -139,83 +139,35 @@
                   endingLineNumber = "36"
                   offsetFromSymbolStart = "1380">
                </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "59D9989F-60D8-482E-AEB7-C3377B250ACD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VIPER Architecture/TableViewModule/TableViewPresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "numberOfRowsInSection()"
-            landmarkType = "7">
-            <Locations>
                <Location
-                  uuid = "59D9989F-60D8-482E-AEB7-C3377B250ACD - c896fa4140aa22e6"
+                  uuid = "D02EB85B-2180-4C35-8520-7947C97E20C9 - 9e13d14603deba26"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "VIPER_Architecture.TableViewPresenter.numberOfRowsInSection() -&gt; Swift.Int"
+                  symbolName = "VIPER_Architecture.TableViewController.setUpUI() -&gt; ()"
                   moduleName = "VIPER Architecture"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewPresenter.swift"
+                  urlString = "file:///Applications/SearchImage/VIPER%20Architecture/TableViewModule/TableViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "24">
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1328">
                </Location>
                <Location
-                  uuid = "59D9989F-60D8-482E-AEB7-C3377B250ACD - c896fa4140aa23b9"
+                  uuid = "D02EB85B-2180-4C35-8520-7947C97E20C9 - 9e13d14603deba26"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "VIPER_Architecture.TableViewPresenter.numberOfRowsInSection() -&gt; Swift.Int"
+                  symbolName = "VIPER_Architecture.TableViewController.setUpUI() -&gt; ()"
                   moduleName = "VIPER Architecture"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewPresenter.swift"
+                  urlString = "file:///Applications/SearchImage/VIPER%20Architecture/TableViewModule/TableViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  uuid = "59D9989F-60D8-482E-AEB7-C3377B250ACD - c896fa4140aa23ff"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "VIPER_Architecture.TableViewPresenter.numberOfRowsInSection() -&gt; Swift.Int"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewPresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  uuid = "59D9989F-60D8-482E-AEB7-C3377B250ACD - 9f5195e9f4e7bef5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "VIPER_Architecture.TableViewPresenter.numberOfRowsInSection() -&gt; Swift.Int"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/SearchImage/VIPER%20Architecture/TableViewModule/TableViewPresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "24">
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1380">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -230,8 +182,8 @@
             filePath = "VIPER Architecture/TableViewModule/TableViewPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "setCell(tableView:forRowAt:)"
             landmarkType = "7">
             <Locations>
@@ -308,86 +260,40 @@
             filePath = "VIPER Architecture/TableViewModule/TableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7A78AD21-2367-47BB-BDBA-FD6454C44A79"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VIPER Architecture/TableViewModule/TableViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "7A78AD21-2367-47BB-BDBA-FD6454C44A79 - 50c3e0f8461c6226"
+                  uuid = "C73DA42D-6DA6-4AB6-94CA-0B5E3EEE78D1 - cb17e9490672d88b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "VIPER_Architecture.TableViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "116">
-               </Location>
-               <Location
-                  uuid = "7A78AD21-2367-47BB-BDBA-FD6454C44A79 - 50c3e0f8461c6d43"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "VIPER_Architecture.TableViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "116">
-               </Location>
-               <Location
-                  uuid = "7A78AD21-2367-47BB-BDBA-FD6454C44A79 - 50c3e0f8461c62c7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "VIPER_Architecture.TableViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "VIPER Architecture"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Applications/VIPER%20Architecture/VIPER%20Architecture/TableViewModule/TableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "59"
-                  endingLineNumber = "59"
-                  offsetFromSymbolStart = "116">
-               </Location>
-               <Location
-                  uuid = "7A78AD21-2367-47BB-BDBA-FD6454C44A79 - fa9eedb8b760ab03"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "VIPER_Architecture.TableViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  symbolName = "VIPER_Architecture.TableViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
                   moduleName = "VIPER Architecture"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Applications/SearchImage/VIPER%20Architecture/TableViewModule/TableViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "90"
-                  endingLineNumber = "90"
-                  offsetFromSymbolStart = "116">
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "C73DA42D-6DA6-4AB6-94CA-0B5E3EEE78D1 - cb17e9490672d8ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIPER_Architecture.TableViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "VIPER Architecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/SearchImage/VIPER%20Architecture/TableViewModule/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "52">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -402,8 +308,8 @@
             filePath = "VIPER Architecture/TableViewModule/TableViewPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "setCell(tableView:forRowAt:)"
             landmarkType = "7">
             <Locations>

@@ -30,7 +30,6 @@ class TableViewController: UIViewController, UITextFieldDelegate, UISearchBarDel
         tableView?.translatesAutoresizingMaskIntoConstraints = false
         tableView?.register(with: TableViewCell.self)
         tableView?.delegate = self
-        
         tableView?.dataSource = self
         tableView?.backgroundColor = .clear
         if let tableView = tableView {
@@ -38,6 +37,7 @@ class TableViewController: UIViewController, UITextFieldDelegate, UISearchBarDel
         }
     }
     
+    //MARK: - Func setupSearchController
     private func setupSearchController() {
         searchController.searchBar.delegate = self
         searchController.searchBar.returnKeyType = .search
@@ -47,6 +47,7 @@ class TableViewController: UIViewController, UITextFieldDelegate, UISearchBarDel
         definesPresentationContext = true
     }
     
+    //MARK: - Func searchBarSearchButtonClicked
     public func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         guard let searchBarText = searchController.searchBar.text else { return }
         presenter?.viewDidLoad(with: searchBarText)
@@ -87,6 +88,7 @@ extension TableViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        presenter?.didSelectRowAt(index: indexPath.row)
+        tableView.deselectRow(at: indexPath, animated: true)
+        presenter?.showImageDetail(at: indexPath.row)
     }
 }

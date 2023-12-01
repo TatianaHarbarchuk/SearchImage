@@ -12,13 +12,14 @@ class DetailImageViewController: UIViewController, UIScrollViewDelegate {
     //MARK: - Properties
     private var imageView = UIImageView()
     private var imageScrollView = UIScrollView()
+    private var likeButton = UIButton(type: .custom)
     var presenter: DetailImagePresenterProtocol?
     
     //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        
+
         configureScrollView()
         presenter?.viewDidLoad()
     }
@@ -47,6 +48,18 @@ class DetailImageViewController: UIViewController, UIScrollViewDelegate {
         ]
         NSLayoutConstraint.activate(constraints)
         imageView.contentMode = .scaleAspectFit
+    }
+    
+    private func configureLikeButton() {
+        likeButton.translatesAutoresizingMaskIntoConstraints = false
+        let likeBarButtonItem = UIBarButtonItem(customView: likeButton)
+        navigationItem.rightBarButtonItems = [likeBarButtonItem]
+        likeButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
+        likeButton.addTarget(self, action: #selector(favouriteButtonPressed), for: .touchUpInside)
+    }
+    
+    @objc private func favouriteButtonPressed(_ sender: UIButton) {
+        print("Button was tapped")
     }
 }
 

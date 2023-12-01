@@ -25,8 +25,13 @@ class TableViewInteractor: PresenterToInteractorTableViewProtocol {
         }
     }
     
-    //MARK: - Func getImageDetailAt
-    func getImageDetailAt(index: Int) {
-        presenter?.getImageDetailSuccess()
+    //MARK: - Func imagesCount
+    func imagesCount() -> Int {
+        return images?.count ?? 0
+    }
+    
+    //MARK: - Func getImage
+    func getImage(at index: Int) -> Hit? {
+        return images?[index]
     }
 }

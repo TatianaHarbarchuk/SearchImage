@@ -13,10 +13,10 @@ protocol ViewToPresenterTableViewProtocol: AnyObject {
     var interactor: PresenterToInteractorTableViewProtocol { get set }
     var router: PresenterToRouterTableViewProtocol { get set }
     func viewDidLoad(with text: String)
-    
+    func getImage(at index: Int) -> Hit?
+    func showImageDetail(at index: Int)
     func numberOfRowsInSection() -> Int
     func setCell(tableView: UITableView, forRowAt indexPath: IndexPath) -> UITableViewCell
-    func didSelectRowAt(index: Int)
     func tableViewCellHeight() -> CGFloat
 }
 
@@ -28,15 +28,14 @@ protocol PresenterToViewTableViewProtocol: AnyObject {
 // MARK: - Interactor Input (Presenter -> Interactor)
 protocol PresenterToInteractorTableViewProtocol: AnyObject {
     var presenter: InteractorToPresenterTableViewProtocol? { get set }
-    var images: [Hit]? { get set}
     func fetchImageList(with text: String)
-    func getImageDetailAt(index: Int)
+    func imagesCount() -> Int
+    func getImage(at index: Int) -> Hit?
 }
 
 // MARK: - Interactor Output (Interactor -> Presenter)
 protocol InteractorToPresenterTableViewProtocol: AnyObject {
     func fetchImageListSuccess(images: [Hit])
-    func getImageDetailSuccess()
 }
 
 // MARK: - Router Input (Presenter -> Router)
